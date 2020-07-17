@@ -7,4 +7,4 @@ Two external libs are required, one is the lib provide by the modern robotics bo
 
 controllerPhase1.cpp contains the codes for manipulating. The codes are not well commented, I will add comments gradually. Feel free to contact me through swxie@outlook.com if you have any questions.
 
-
+Note that you can easily modify the code to make it run on Mujoco, you may need to modify the urdf file, contact me if you want the xml file for mujoco simulation.
