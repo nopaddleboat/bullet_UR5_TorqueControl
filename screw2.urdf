@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<robot name="screw">
+  <material name="Blue">
+    <color rgba="0.93 0.23 0.16 1.0"/>
+  </material>
+  <material name="Orange">
+    <color rgba="1.0 0.423529411765 0.0392156862745 1.0"/>
+  </material>
+  <material name="Red">
+  <color rgba="0.094 0.239 0.384 1"/>  
+</material>
+
+    <link name="half2">
+  <contact>
+      <lateral_friction value="1"/>
+  </contact>
+    <inertial>
+      <origin rpy="0 0 -1.57" xyz="0 0.5068 0."/>
+       <mass value=".0"/>
+       <inertia ixx=".1" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 -1.57" xyz="0 0.5068 0"/>
+      <geometry>
+				<mesh filename="meshes/half_screw.stl" scale="1 1 1"/>
+      </geometry>
+       <material name="Red"/>
+    </visual>
+	
+    <collision>
+      <origin rpy="0 0 -1.57" xyz="0 0.5068 0"/>
+      <geometry>
+				<mesh filename="meshes/half_screw.stl" scale="1 1 1"/>
+      </geometry>
+       <material name="Red"/>
+    </collision>
+  </link>
+  
+  
+  
+</robot>
