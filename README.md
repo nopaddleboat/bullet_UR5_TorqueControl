@@ -9,6 +9,6 @@ Use bullet the simulate UR5, torque control is used.
 
 4. Note that you can easily modify the code to make it run on Mujoco, you may need to modify the urdf file, contact me if you want the xml file for mujoco simulation.
 
-5. Note that a hybrid position/force controller is used in the controller, it is not the kind of hybrid controller using projection matrix.
+5. Note that a hybrid position/force controller is used in the simulation, it is not the kind of hybrid controller using projection matrix.
 
 
