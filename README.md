@@ -3,7 +3,7 @@ Use bullet to simulate UR5, torque control is used.
 
 1. The project is based on RobotSimulatorMain example, so you need to make sure that you can run RobotSimulatorMain provided by the official website. 
 
-2. Two external libs are required, one is the lib provided by the modern robotics book and the other is the Eigen lib, only the first lib is included, you need to download Eigen by yourself.
+2. Two external libs are required, one is the lib provided by the modern robotics book [1] and the other is the Eigen lib, only the first lib is included, you need to download Eigen by yourself.
 
 3. controllerPhase1.cpp contains the codes for manipulating. The codes are not well commented, I will add comments gradually. Feel free to contact me through swxie@outlook.com if you have any questions.
 
@@ -12,3 +12,4 @@ Use bullet to simulate UR5, torque control is used.
 5. Note that a hybrid position/force controller is used in simulation, it is not the kind of hybrid controller using projection matrix.
 
 
+[1] Lynch, Kevin M., and Frank C. Park. Modern Robotics. Cambridge University Press, 2017.
