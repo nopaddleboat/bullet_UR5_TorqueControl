@@ -1,4 +1,5 @@
 # bullet_UR5_TorqueControl
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 Use bullet to simulate UR5, torque control is used.
 
 1. The project is based on RobotSimulatorMain example, so you need to make sure that you can run RobotSimulatorMain provided by the official website. 
